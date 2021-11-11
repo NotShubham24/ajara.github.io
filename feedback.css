@@ -1,0 +1,170 @@
+
+body{
+    background-image: url("bg5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px;
+    background-image: url("bg5.jpg");
+  }
+  .container{
+    max-width: 800px;
+    background: #fff;
+    width: 800px;
+    padding: 25px 40px 10px 40px;
+    box-shadow: 0px 0px 10px rgb(106, 105, 158);
+  }
+  .container .text{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(right, #56d8e4, #799dff, #56d8e4, #0105ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .container form{
+    padding: 30px 0 0 0;
+  }
+  .container form .form-row{
+    display: flex;
+    margin: 32px 0;
+  }
+  form .form-row .input-data{
+    width: 100%;
+    height: 40px;
+    margin: 0 20px;
+    position: relative;
+  }
+  form .form-row .textarea{
+    height: 70px;
+  }
+  .input-data input,
+  .textarea textarea{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid rgba(0,0,0, 0.12);
+  }
+  .input-data input:focus ~ label, .textarea textarea:focus ~ label,
+  .input-data input:valid ~ label, .textarea textarea:valid ~ label{
+    transform: translateY(-20px);
+    font-size: 14px;
+    color: #3498db;
+  }
+  .textarea textarea{
+    resize: none;
+    padding-top: 10px;
+  }
+  .input-data label{
+    position: absolute;
+    pointer-events: none;
+    bottom: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  .textarea label{
+    width: 100%;
+    bottom: 40px;
+    background: #fff;
+  }
+  .input-data .underline{
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+  }
+  .input-data .underline:before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: #3498db;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+  }
+  .input-data input:focus ~ .underline:before,
+  .input-data input:valid ~ .underline:before,
+  .textarea textarea:focus ~ .underline:before,
+  .textarea textarea:valid ~ .underline:before{
+    transform: scale(1);
+  }
+
+
+
+
+    .container .text{
+      font-size: 30px;
+    }
+    .container form{
+      padding: 10px 0 0 0;
+    }
+    .container form .form-row{
+      display: block;
+    }
+    form .form-row .input-data{
+      margin: 30px 0!important;
+    }
+
+  .btn-submit {
+    background-image: linear-gradient(204deg, rgb(0, 11, 107) 0%, rgb(41, 4, 251)100%);
+    color: #FFF;
+    display: inline-block;
+    line-height: 50px;
+    width: 100px;
+    margin: 10px;
+    font-size: 100%;
+    border-radius: 50px;
+    font-family: 'Poppins-ExtraBold' sans-serif ;
+    text-transform: uppercase;
+    border: transparent;
+  }
+  
+  .gradient-btn:nth-child(odd):hover {
+    cursor: pointer;
+    box-shadow: -6px -9px 2px -2px #375492;
+    transition: all 1s ease;
+    transform: translateX(5px);
+  }
+   
+  .gradient-btn:nth-child(even):hover {
+    cursor: pointer;
+    box-shadow: 8px 8px 2px -2px #244897;
+    transition: all 2s ease;
+    transform: translateX(-10px);
+  } 
+
+  .btn-1 {
+    background-image: linear-gradient(204deg, rgb(29, 229, 255) 0%, rgb(111, 133, 255) 100%);
+    color: #FFF;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    width: 160px;
+    margin: 10px;
+    font-size: large;
+    border-radius: 50px;
+    box-shadow: 5px 5px 2px -2px #2d3546;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  }

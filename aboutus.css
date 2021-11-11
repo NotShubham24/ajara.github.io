@@ -1,0 +1,42 @@
+
+h1{color:rgb(255, 255, 255)
+
+}
+body{
+    font-family: arial;
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font:200px;
+    background-image:url("bg5.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn-1 {
+    background-image: linear-gradient(204deg, rgb(29, 229, 255) 0%, rgb(111, 133, 255) 100%);
+    color: #FFF;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    width: 160px;
+    margin: 10px;
+    font-size: large;
+    border-radius: 50px;
+    box-shadow: 5px 5px 2px -2px #2d3546;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  }
+  .gradient-btn:nth-child(odd):hover {
+    cursor: pointer;
+    box-shadow: -6px -9px 2px -2px #2d3546;
+    transition: all 2s ease;
+    transform: translateX(10px);
+  }
+  .gradient-btn:nth-child(even):hover {
+    cursor: pointer;
+    box-shadow: 8px 8px 2px -2px #2d3546;
+    transition: all 2s ease;
+    transform: translateX(-10px);
+  } 
+
